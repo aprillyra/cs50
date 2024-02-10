@@ -6,4 +6,4 @@ To play, visit [A Dog's Dream](https://scratch.mit.edu/projects/949208596) on Sc
 
 To read about my process in creating this game, visit my blog post: [starting from scratch](https://april.bearblog.dev/starting-from-scratch/)
 
-This is my solution to the (Scratch)[https://cs50.harvard.edu/x/2024/psets/0/scratch/] problem for Harvard CS50's Problem Set 0.
+This is my solution to the [Scratch](https://cs50.harvard.edu/x/2024/psets/0/scratch/) problem for Harvard CS50's Problem Set 0.
