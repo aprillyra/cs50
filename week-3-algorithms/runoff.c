@@ -142,23 +142,23 @@ bool vote(int voter, int rank, string name)
 
 void tabulate(void)
 {
-    // loop through each voter
+    // Loop through each voter
     for (int v = 0; v < voter_count; v++)
     {
-        // loop through each candidate to determine if rth choice for voter
+        // Loop through each candidate to determine if rth choice for voter
         for (int c = 0, r = 0; c < candidate_count; c++)
         {
-            if (preferences[v][r] == c) // check if candidate's name matches
+            if (preferences[v][r] == c) // Check if candidate's name matches
             {
-                if (!candidates[c].eliminated) // if name matches, check if candidate is eliminated
+                if (!candidates[c].eliminated) // If name matches, check if candidate is eliminated
                 {
-                    candidates[c].votes++; // add votes to candidate if not eliminated
+                    candidates[c].votes++; // Add votes to candidate if not eliminated
                     break;
                 }
                 else
                 {
-                    r++;    // if eliminated, go to next voter's next rank choice
-                    c = -1; // reset candidate loop for next rank
+                    r++;    // If eliminated, go to voter's next rank choice
+                    c = -1; // Reset candidate loop for next rank
                 }
             }
         }
